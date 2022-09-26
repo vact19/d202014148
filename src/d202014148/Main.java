@@ -3,7 +3,10 @@ package d202014148;
 public class Main {
 
 	public static void main(String[] args) {
-		String s = "hello world";
+		say("hello world");
+	}
+
+	static void say(String s){
 		System.out.println(s);
 	}
 
